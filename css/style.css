@@ -21,13 +21,7 @@ h1{
 color: blue;
 text-align: center;
 }
-/* .navbar{
-    text-align: center;
-    font-size: 30px;
-    color: brown;
-    background-color: black;
-    margin-bottom: 60px;
-} */
+
 .personal{
     font-style: italic;
 }
@@ -62,12 +56,19 @@ input[type=text], select, textarea {
     padding-top: 10px;
     /* height: 100px; */
   }
+ 
   .container fname{
       color: crimson;
   }
   h6{
       font-size: 20px;
   }
+  .topnav{
+    background-color: #1c2833;
+    overflow: hidden;
+     position:fixed;
+  }
+
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -86,6 +87,8 @@ input[type=text], select, textarea {
     background-color: #4CAF50;
     color: white;
   }
-  .topnav img{
-      float: right;
+  .why{
+      font-style: italic;
+      margin-top: 20px;
+      margin-left: 15px;
   }

@@ -4,8 +4,28 @@
     margin-top: 10px;
 }
 .profile-img img{
-    width: 20%;
-    height: 80%;
+    width: 30%;
+    height: 70%;
     float: right;
     border-bottom: 20px;
+}
+body{
+    background-color: bisque;
+}
+.Personal-info{
+    padding-bottom: 20px;;
+}
+h1{
+color: blue;
+text-align: center;
+}
+/* .navbar{
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    background-color: black;
+    margin-bottom: 60px;
+} */
+.personal{
+    font-style: italic;
 }

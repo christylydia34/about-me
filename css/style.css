@@ -8,9 +8,11 @@
     height: 70%;
     float: right;
     border-bottom: 20px;
+    margin-top: 90px;
+    margin-right: 0.2;
 }
 body{
-    background-color: bisque;
+    background-color: chartreuse;
 }
 .Personal-info{
     padding-bottom: 20px;;
@@ -52,13 +54,21 @@ input[type=text], select, textarea {
   }
   
   .container {
-   color: crimson;
+ background-color: darkmagenta;
     border-radius: 10px;
     padding: 30px;
-    margin-left: 20%;
+    margin-right: 80%;
     width: 30%;
-    color: #BDC3C7;
-    padding-top: 100px;
-    height: 100px;
- float: left;
-  
+    padding-top: 10px;
+    /* height: 100px; */
+  }
+  .container fname{
+      color: crimson;
+  }
+  h6{
+      font-size: 20px;
+  }
+  .navbar{
+      background-color: orangered;
+      padding:10px 20px 25px;
+  }

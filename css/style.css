@@ -14,10 +14,8 @@
 body{
     background-color:grey;
 }
-.Personal-info{
-    padding-bottom: 20px;;
-}
-h1{
+
+.Personal-info h1{
 color: blue;
 text-align: center;
 }
@@ -67,6 +65,9 @@ input[type=text], select, textarea {
     background-color: #1c2833;
     overflow: hidden;
      position:fixed;
+     float: right;
+     margin-left: 60%;
+     
   }
 
   .topnav a {
@@ -91,4 +92,14 @@ input[type=text], select, textarea {
       font-style: italic;
       margin-top: 20px;
       margin-left: 15px;
+  }
+  @media screen and (min-width: 480px){
+      body{
+          background-color:indigo;
+      }
+  }
+  @media screen and (min-width: 800px){
+      body{
+          background-color:grey;
+      }
   }
